@@ -533,7 +533,7 @@ const AddComponents = (shades) => {
             zIndex: "1",
             transition: `left 250ms ${ easeInOut }`,
 
-            "& > *": {
+            "& > ul.menu, & > ol.menu": {
               height: "100%",
               overflowY: "auto",
               backgroundColor: "var(--drawer-sidebar-content-bg-color)",
@@ -1682,7 +1682,7 @@ const AddComponents = (shades) => {
       ".swap": {
         position: "relative",
         display: "inline-grid",
-        // justifyItems: "center",
+        justifyItems: "center",
         alignContent: "center",
         "-webkit-user-select": "none",
         "-ms-user-select": "none",
