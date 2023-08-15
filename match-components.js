@@ -164,7 +164,7 @@ const MatchComponents = (shades) => {
       //progress class
       "progress": (color) => ({
         //progress
-        "--progress-bg-color": ShadeHexColor(color, shades[99]),
+        "--progress-bg-color": ShadeHexColor(ShadeHexColor(color, shades[10]), shades[90]),
         "--progress-fg-color": color,
       }),
 
@@ -192,7 +192,7 @@ const MatchComponents = (shades) => {
 
       //switch class
       "switch": (color) => ({
-        "--switch-bg-color-off": ShadeHexColor(color, shades[95]),
+        "--switch-bg-color-off": ShadeHexColor(ShadeHexColor(color, shades[10]), shades[90]),
         "--switch--lever-bg-color-off": ShadeHexColor(color, shades[10]),
         "--switch-bg-color-on": color,
         "--switch--lever-bg-color-on": ShadeHexColor(color, shades[95]),

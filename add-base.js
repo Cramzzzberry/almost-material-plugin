@@ -120,7 +120,7 @@ const AddBase = (shades) => {
 
 
       //progress
-      "--progress-bg-color": ShadeHexColor("#000000", shades[95]),
+      "--progress-bg-color": ShadeHexColor(ShadeHexColor("#000000", shades[10]), shades[90]),
       "--progress-fg-color": "#000000",
 
 
@@ -144,7 +144,7 @@ const AddBase = (shades) => {
 
 
       //switch
-      "--switch-bg-color-off": ShadeHexColor("#000000", shades[95]),
+      "--switch-bg-color-off": ShadeHexColor(ShadeHexColor("#000000", shades[10]), shades[90]),
       "--switch--lever-bg-color-off": ShadeHexColor("#000000", shades[10]),
       "--switch-bg-color-on": ShadeHexColor("#000000", shades[10]),
       "--switch--lever-bg-color-on": ShadeHexColor("#000000", shades[95]),
@@ -379,7 +379,7 @@ const themeStyles = (palette, shades) => {
 
 
       //progress
-      "--progress-bg-color": ShadeHexColor(palette[color], shades[99]),
+      "--progress-bg-color": ShadeHexColor(ShadeHexColor(palette[color], shades[10]), shades[90]),
       "--progress-fg-color": palette[color],
 
 
@@ -403,7 +403,7 @@ const themeStyles = (palette, shades) => {
 
       
       //switch
-      "--switch-bg-color-off": ShadeHexColor(palette[color], shades[95]),
+      "--switch-bg-color-off": ShadeHexColor(ShadeHexColor(palette[color], shades[10]), shades[90]),
       "--switch--lever-bg-color-off": ShadeHexColor(palette[color], shades[10]),
       "--switch-bg-color-on": ShadeHexColor(palette[color], shades[10]),
       "--switch--lever-bg-color-on": ShadeHexColor(palette[color], shades[95]),
