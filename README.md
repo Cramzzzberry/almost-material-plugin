@@ -62,7 +62,7 @@ module.exports = {
 }
 ```
 
-## Extend and automatically create shades based user's palette
+## Extend your palette to Tailwind Classes with different shades
 Almost Material Plugin has 10 shades for each color in the palette:
 - 0
 - 10
