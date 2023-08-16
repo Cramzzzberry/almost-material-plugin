@@ -113,4 +113,4 @@ module.exports = {
 ```
 
 ## About the plugin
-The plugin's purpose is to help myself understand CSS more and to expose myself more to TailwindCSS plugin
+The plugin's purpose is to make myself learn more about CSS and to expose myself more to TailwindCSS plugin
