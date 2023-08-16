@@ -527,8 +527,8 @@ const AddComponents = (shades) => {
 
           "& > .drawer-sidebar-content": {  //wrapper for the sidebar content
             position: "absolute",
-            left: "-23rem",
-            width: "23rem",
+            left: "-20rem",
+            width: "20rem",
             height: "100vh",
             zIndex: "1",
             transition: `left 250ms ${ easeInOut }`,
@@ -541,7 +541,7 @@ const AddComponents = (shades) => {
           },
           
           "&.drawer-compact > .drawer-sidebar-content": { //compact drawer!
-            width: "23rem",
+            width: "20rem",
           },
           
           "&.drawer-fullscreen > .drawer-sidebar-content": { //fullscreen drawer!
@@ -592,7 +592,7 @@ const AddComponents = (shades) => {
   
             "& > .drawer-sidebar-content": { //drawer sdebar content fitted to its content
               position: "static",
-              flexBasis: "23rem",
+              flexBasis: "20rem",
               height: "100vh",
               zIndex: "0",
             },
