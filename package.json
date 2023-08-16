@@ -1,13 +1,13 @@
 {
-  "name": "@cramzzzberry/almost-material-ui-plugin",
+  "name": "@cramzzzberry/almost-material-plugin",
   "version": "1.0.0",
-  "description": "A TailwindCSS plugin based heavily on material 3",
+  "description": "A component library, TailwindCSS plugin based heavily on Material Design 3",
   "main": "almost-material.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Cramzzzberry",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
   },
@@ -85,10 +85,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cramzzzberry/almost-material-ui-plugin.git"
+    "url": "git+https://github.com/Cramzzzberry/almost-material-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/Cramzzzberry/almost-material-ui-plugin/issues"
+    "url": "https://github.com/Cramzzzberry/almost-material-plugin/issues"
   },
-  "homepage": "https://github.com/Cramzzzberry/almost-material-ui-plugin#readme"
+  "homepage": "https://github.com/Cramzzzberry/almost-material-plugin#readme"
 }

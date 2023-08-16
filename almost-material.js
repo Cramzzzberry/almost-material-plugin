@@ -100,7 +100,7 @@ const almostMaterial = plugin(
 		addBase({
 			"@font-face": {
         fontFamily: "'PlusJakartaSans'",
-        src: "url('node_modules/almost-material/src/PlusJakartaSans.ttf') format('truetype-variations')",
+        src: "url('node_modules/@cramzzzberry/almost-material-ui-plugin/src/PlusJakartaSans.ttf') format('truetype-variations')",
 				fontWeight: "100 900",
 			},
 		});
