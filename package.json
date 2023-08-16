@@ -1,6 +1,6 @@
 {
   "name": "@cramzzzberry/almost-material-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A component library, TailwindCSS plugin based heavily on Material Design 3",
   "main": "almost-material.js",
   "scripts": {
