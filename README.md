@@ -10,11 +10,6 @@ Then you need to import the plugin in your `tailwind.config.js` like this:
 const plugin = require('@cramzzzberry/almost-material-plugin')
 
 module.exports = {
-  content: [
-    "./src/**/*.{html,ts}",
-  ],
-  theme: {
-  },
   plugins: [plugin.almostMaterial],
 }
 ```
@@ -52,9 +47,6 @@ const myPalette = {
 }
 
 module.exports = {
-  content: [
-    "./src/**/*.{html,ts}",
-  ],
   theme: {
     almostMaterial: myPalette,
   },
@@ -99,9 +91,6 @@ const myPalette = {
 }
 
 module.exports = {
-  content: [
-    "./src/**/*.{html,ts}",
-  ],
   theme: {
     extend: {
       colors: plugin.CreateShades(myPalette)
