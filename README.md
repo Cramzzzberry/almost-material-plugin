@@ -110,5 +110,5 @@ module.exports = {
 }
 ```
 
-##About the plugin
+## About the plugin
 The plugin's purpose is to help myself understand CSS more and to expose myself more to TailwindCSS plugin
