@@ -1,5 +1,5 @@
 # Almost Material Plugin
-The documentation for this plugin is still in development, but if you want to install it to tinker it (make sure you install [TailwindCSS](https://tailwindcss.com/docs/installation) first):
+The documentation for this plugin is still in development, but if you want to install for experimentation purposes, make sure you install [TailwindCSS](https://tailwindcss.com/docs/installation) first, then run:
 ```
 npm install @cramzzzberry/almost-material-plugin
 ```
