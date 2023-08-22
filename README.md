@@ -1,7 +1,7 @@
 # Almost Material Plugin
 A component library, TailwindCSS plugin heavily based on Material Design 3
 
-The [documentation](https://github.com/Cramzzzberry/almost-material) for this plugin is still in development, but if you want to install the plugin for experimentation purposes, make sure you install [TailwindCSS](https://tailwindcss.com/docs/installation) first, then run:
+The [documentation](https://cramzzzberry.github.io/almost-material/home) for this plugin is still in [development](https://github.com/Cramzzzberry/almost-material), but if you want to install the plugin for experimentation purposes, make sure you install [TailwindCSS](https://tailwindcss.com/docs/installation) first, then run:
 ```
 npm install @cramzzzberry/almost-material-plugin
 ```
