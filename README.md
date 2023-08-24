@@ -55,7 +55,7 @@ module.exports = {
 ```
 
 ## Extend your palette to Tailwind Classes with different shades
-Almost Material Plugin has 10 shades for each color in the palette:
+Almost Material Plugin has 13 shades for each color in the palette:
 - 0
 - 10
 - 20
