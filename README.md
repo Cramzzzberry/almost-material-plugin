@@ -99,5 +99,21 @@ module.exports = {
 }
 ```
 
+##Theming in Almost Material
+You can use the colors to your website to have a preset theme, just add the `data-color` on the `html` tag like so:
+```
+<!DOCTYPE html>
+<html data-color="primary" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- content here -->
+</body>
+</html>
+```
+
 ## About the plugin
 The plugin's purpose is to make myself learn more about CSS and to expose myself more to TailwindCSS plugin
