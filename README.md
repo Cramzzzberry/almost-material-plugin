@@ -1,4 +1,5 @@
 # Almost Material Plugin
+You can take a look at the documentation [repository](https://github.com/Cramzzzberry/almost-material)
 To install the plugin, make sure you install [Node.js](https://nodejs.org/en) and [TailwindCSS](https://tailwindcss.com/docs/installation) first, then run:
 ```
 npm install @cramzzzberry/almost-material-plugin
