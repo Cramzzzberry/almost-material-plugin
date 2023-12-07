@@ -116,6 +116,3 @@ You can use the colors to your website to have a preset theme, just add the `dat
 </body>
 </html>
 ```
-
-## About the plugin
-The plugin's purpose is to make myself learn more about CSS and to expose myself more to TailwindCSS plugin
